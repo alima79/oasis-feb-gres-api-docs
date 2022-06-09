@@ -1,0 +1,15 @@
+1 - ConstraintViolationException
+2 - ResourceNotFoundException
+3 - DataIntegrityViolationException
+4 - Exception - for global or general Exception - Internal Server Error
+
+***********************************************************
+*	Adilson -> custoom Exceptions                                                     *
+***********************************************************
+1 - NewResourceNotFoundException			       * 	
+2 - NewDataIntegrityViolationException			       *
+3 - ResourceBadRequestException			       *
+4 - UnexpectedTypeException                                                                           *
+5 - PropertyAccessException                                                                             *
+6 - MethodArgumentNotValidception                                                            *
+***********************************************************
