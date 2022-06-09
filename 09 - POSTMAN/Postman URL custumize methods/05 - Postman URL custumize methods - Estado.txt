@@ -1,0 +1,5 @@
+01- http://localhost:8080/estados/search/findById?id=1
+02- http://localhost:8080/estados/search/findByValor?valor=PENDENTE
+03- http://localhost:8080/estados/search/findByAtivo?ativo=false
+04- http://localhost:8080/estados/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+05- http://localhost:8080/estados/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28

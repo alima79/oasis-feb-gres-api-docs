@@ -1,0 +1,8 @@
+01- http://localhost:8080/pagamentos/search/findById?id=2
+02- http://localhost:8080/pagamentos/search/findByTipo?tipo=CORTESIA
+03- http://localhost:8080/pagamentos/search/findByAtivo?ativo=true
+04- http://localhost:8080/pagamentos/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+05- http://localhost:8080/pagamentos/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+************************************************************************************************************
+06- http://localhost:8080/pagamentos/search/findByReservasId?id=3
+(...)

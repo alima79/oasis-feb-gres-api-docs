@@ -1,0 +1,39 @@
+{
+  "nome": "Vladomir",
+  "apelido": "Zielensky",
+  "email": "vz@guerra.cv",
+  "telefone": "9545444",
+  "tipo": "HOSPEDE",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+{
+  "nome": "Vladimir",
+  "apelido": "Putina",
+  "email": "vzs@guerra.cv",
+  "telefone": "9545433",
+  "tipo": "PARTICULAR",
+  "ativo": 0,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Antonio",
+  "apelido": "Guteres",
+  "email": "gugu@onu.org",
+  "telefone": "9545422",
+  "tipo": "GRUPO",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

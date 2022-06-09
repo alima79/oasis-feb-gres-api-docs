@@ -1,0 +1,12 @@
+{
+  "numeroQuarto": 1021,
+  "nacionalidade": "Ucrania",
+  "cliente": "/clientes/1"
+ }
+
+
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

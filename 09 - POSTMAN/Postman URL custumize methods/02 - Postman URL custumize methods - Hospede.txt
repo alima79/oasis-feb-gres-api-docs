@@ -1,0 +1,7 @@
+01- http://localhost:8080/hospedes/search/findById?id=1
+02- http://localhost:8080/hospedes/search/findByNacionalidade?nacionalidade=Portugal
+03- http://localhost:8080/hospedes/search/findByNumeroQuarto?numeroQuarto=1021
+******************************************************************************
+04- http://localhost:8080/hospedes/search/findByClienteId?id=4
+(...)
+

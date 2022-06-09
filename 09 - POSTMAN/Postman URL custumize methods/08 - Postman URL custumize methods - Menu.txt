@@ -1,0 +1,9 @@
+01- http://localhost:8080/menus/search/findById?id=2
+02- http://localhost:8080/menus/search/findByNome?nome=Menu 1
+03- http://localhost:8080/menus/search/findByAtivo?ativo=false
+04- http://localhost:8080/menus/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+05- http://localhost:8080/menus/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+********************************************************************************************************
+06- http://localhost:8080/menus/search/findByRestauranteSeatingsId?id=1
+(...)
+

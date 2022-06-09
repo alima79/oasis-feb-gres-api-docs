@@ -1,0 +1,11 @@
+{
+  "observacao": "o cara veio jantar com a amante!",
+  "cliente": "/clientes/2"
+ }
+
+
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

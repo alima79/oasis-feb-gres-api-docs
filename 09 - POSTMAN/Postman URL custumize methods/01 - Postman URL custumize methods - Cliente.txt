@@ -1,0 +1,9 @@
+01- http://localhost:8080/clientes/search/findById?id=1
+02- http://localhost:8080/clientes/search/findByNome?nome=Vladimir
+03- http://localhost:8080/clientes/search/findByEmail?email=gugu@onu.org
+04- http://localhost:8080/clientes/search/findByApelido?apelido=Guteres
+05- http://localhost:8080/clientes/search/findByTelefone?telefone=9843422
+06- http://localhost:8080/clientes/search/findByTipo?tipo=HOSPEDE
+07- http://localhost:8080/clientes/search/findByAtivo?ativo=false
+08- http://localhost:8080/clientes/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+09- http://localhost:8080/clientes/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28

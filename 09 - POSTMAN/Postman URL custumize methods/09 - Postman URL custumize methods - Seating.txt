@@ -1,0 +1,10 @@
+01- http://localhost:8080/seatings/search/findById?id=2
+02- http://localhost:8080/seatings/search/findByAtivo?ativo=true
+03- http://localhost:8080/seatings/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+04- http://localhost:8080/seatings/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+05- http://localhost:8080/seatings/search/findByCompleto?completo=false
+06- http://localhost:8080/seatings/search/findByHoraInicio?horaInicio=22:25:43
+07- http://localhost:8080/seatings/search/findByHoraFim?horaFim=22:25:43
+********************************************************************************************************
+08- http://localhost:8080/seatings/search/findByRestauranteSeatingsId?id=2
+(...)

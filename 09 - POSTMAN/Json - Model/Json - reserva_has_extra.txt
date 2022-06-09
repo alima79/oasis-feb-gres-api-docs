@@ -1,0 +1,9 @@
+{
+  "reserva": "/reservas/1",
+  "extra": "/extras/1"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

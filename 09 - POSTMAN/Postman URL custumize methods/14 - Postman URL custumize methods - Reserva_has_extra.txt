@@ -1,0 +1,2 @@
+http://localhost:8080/clientes/search/findByNome?nome=Vladimir
+http://localhost:8080/clientes/search/findByEmail?email=gugu@onu.org

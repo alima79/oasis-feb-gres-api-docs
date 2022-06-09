@@ -1,0 +1,3 @@
+INSERT INTO `utilizador` (`ativo`,`create_time`,`last_update`,`email`,`password`,`username`) VALUES (1,sysdate(),sysdate(),'mimou@oasisatlantico.com','moue1234','mikey');
+INSERT INTO `utilizador` (`ativo`,`create_time`,`last_update`,`email`,`password`,`username`) VALUES (0,sysdate(),sysdate(),'minimou@oasisatlantico.com','moue3216','mini');
+INSERT INTO `utilizador` (`ativo`,`create_time`,`last_update`,`email`,`password`,`username`) VALUES (1,sysdate(),sysdate(),'alima@oasisatlantico.com','mra&11li','alima');

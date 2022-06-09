@@ -1,0 +1,49 @@
+urls CRUD postman: 
+get -> http://localhost:8080/estados
+       -> http://localhost:8080/estados/id
+		
+post->http://localhost:8080/estados + JSON Body
+
+put-> http://localhost:8080/estados/id + JSON Body
+
+delete-> http://localhost:8080/estados/id
+
+{
+    "valor": "PENDENTE",
+    "descricao": "Reserva feita mas não Confirmada",
+    "ativo": 1,
+    "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+}
+
+{
+    "valor": "CONFIRMADA",
+    "descricao": "Reserva CONFIRMADA!",
+    "ativo": 1,
+    "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+}
+
+{
+    "valor": "CANCELADA",
+    "descricao": "Reserva Cancelada!",
+    "ativo": 1,
+    "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+}
+
+{
+    "valor": "CHECK-IN",
+    "descricao": "HOSPEDES CHEGARAM NO RESTAURANTE!",
+    "ativo": 0,
+    "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+}
+
+{
+    "valor": "CHECK-OUT",
+    "descricao": "HOSPEDES JÁ SAIRAM DO RESTAURANTE!!",
+    "ativo": 0,
+    "dataCriacao": "{{$isoTimestamp}}",
+    "dataUltimaActualizacao": "{{$isoTimestamp}}"
+}

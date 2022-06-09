@@ -1,0 +1,28 @@
+{
+  "nome": "Extra 1",
+  "descricao": "a reserva inclui ...... 1",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Extra 2",
+  "descricao": "a reserva inclui ...... 2",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Extra 3",
+  "descricao": "a reserva inclui ...... 3",
+  "ativo": 0,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

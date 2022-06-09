@@ -1,0 +1,13 @@
+{
+  "observacao": "Grupo que veio da Casca da Rolha!",
+  "descricao": "Presidente e Companhia Limitada",
+  "instituicao": "Governo Cabo Verde",
+  "cliente": "/clientes/4"
+ }
+
+
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

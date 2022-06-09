@@ -1,0 +1,8 @@
+01- http://localhost:8080/extras/search/findById?id=2
+02- http://localhost:8080/extras/search/findByNome?nome=Extra 1
+03- http://localhost:8080/extras/search/findByAtivo?ativo=true
+04- http://localhost:8080/extras/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+05- http://localhost:8080/extras/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+********************************************************************************************************
+06- http://localhost:8080/extras/search/findByReservasId?id=3
+(...)

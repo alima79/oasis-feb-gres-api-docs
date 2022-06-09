@@ -1,0 +1,3 @@
+a aplicacao deve informar o user quando um seating esta quase a esgotar a sua lotacao bem como o restaurante.
+
+deve mostrar quantas pessoas, lugares faltam para atingir o limite dasd lotacoes.

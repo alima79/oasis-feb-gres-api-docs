@@ -1,0 +1,1 @@
+INSERT INTO `estado` (`ativo`,`create_time`,`last_update`,`descricao`,`valor`) VALUES (1,sysdate(),sysdate(),'Reserva TESTE!','TESTE');

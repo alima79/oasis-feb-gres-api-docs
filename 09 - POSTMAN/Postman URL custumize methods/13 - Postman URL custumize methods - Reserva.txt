@@ -1,0 +1,15 @@
+01- http://localhost:8080/reservas/search/findById?id=1
+02- http://localhost:8080/reservas/search/findByAtivo?ativo=true
+03- http://localhost:8080/reservas/search/findByDataCriacao?dataCriacao=2022-06-08T19:12:23
+04- http://localhost:8080/reservas/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-08T19:12:23
+05- http://localhost:8080/reservas/search/findByNumeroAdulto?numeroAdulto=4
+06- http://localhost:8080/reservas/search/findByNumeroCrianca?numeroCrianca=1
+07- http://localhost:8080/reservas/search/findByDataReserva?dataReserva=2022-06-08
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+08- http://localhost:8080/reservas/search/findByUtilizadorId?id=2
+09- http://localhost:8080/reservas/search/findByRestauranteSeatingId?id=1
+10- http://localhost:8080/reservas/search/findByPagamentoId?id=3
+11- http://localhost:8080/reservas/search/findByExtrasId?id=2
+12- http://localhost:8080/reservas/search/findByEstadoId?id=1
+13- http://localhost:8080/reservas/search/findByClienteId?id=3
+

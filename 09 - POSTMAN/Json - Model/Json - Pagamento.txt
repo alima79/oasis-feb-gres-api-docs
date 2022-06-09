@@ -1,0 +1,30 @@
+{
+  "tipo": "CORTESIA",
+  "descricao": "Oferta especial para uma pessoa especial!!!",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+{
+  "tipo": "ALL INCLUSICE",
+  "descricao": "o CLIENTE JÁ pagou tudo DE ANTECEDENCIA!!!",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+{
+  "tipo": "POR RECEBER",
+  "descricao": "O CLIENTE VAI PAGAR NO LOCAL!!!",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

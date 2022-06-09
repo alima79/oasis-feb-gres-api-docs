@@ -1,0 +1,9 @@
+01- http://localhost:8080/restaurantes/search/findById?id=3
+02- http://localhost:8080/restaurantes/search/findByNome?nome=Funana
+03- http://localhost:8080/restaurantes/search/findByAtivo?ativo=false
+04- http://localhost:8080/restaurantes/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+05- http://localhost:8080/restaurantes/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+06- http://localhost:8080/restaurantes/search/findByLotacaoMaxima?lotacaoMaxima=30
+*************************************************************************************************************
+http://localhost:8080/restaurantes/search/findByRestauranteSeatingsId?id=3
+(...)

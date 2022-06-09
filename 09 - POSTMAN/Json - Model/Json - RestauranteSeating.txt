@@ -1,0 +1,26 @@
+{
+  "data": "2022-06-08",
+  "lotacao": 20,
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}",
+  "seating": "/seatings/1",
+  "restaurante": "/restaurantes/1",
+  "menu": "/menus/2"
+ }
+
+
+{
+  "data": "2022-06-08",
+  "lotacao": 15,
+  "ativo": 0,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}",
+  "seating": "/seatings/2",
+  "restaurante": "/restaurantes/2",
+  "menu": "/menus/3"
+ }
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

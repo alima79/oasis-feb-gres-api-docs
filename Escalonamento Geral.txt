@@ -1,0 +1,39 @@
+Primeira Semana: 17/05 a 24/05
+* - Inicio dia 17 maio.
+* - BrainStorming(70%).
+* - Pesquisas.
+* - Levantamento Requesitos (20%).
+* - Briefing Team
+
+Segunda Semana: 24/05 a 31/05
+* - Inicio Aplicacao Spring Boot.
+* - Modelo de Base Dados
+* - Diagrama  Classes
+* - Base de Dados
+* - Levantamento Requesitos (50%).
+* - Git / GitHub
+* - Briefing Team
+
+Terceira Semana: 31/05 a 7/06
+* - Validacao.
+* - Global Exception Handling
+* - Anotacao das Entidades para a Base de Dados
+* - Base de Dados
+* - Aplicacao ResRES (Inicio de Fase de Desenvolvimento)
+* - Levantamento Requesitos (60%).
+* - Git / GitHub
+* - Custoom EndPoints para Data Rest -> findBy
+* - Inicio de Documentacao
+* - Briefing Team
+
+
+Quarta Semana: 7/06 a 7/04
+* -  Levantamento Requesitos (80%).
+* -  Git / GitHub
+* -  Global Exception Handling
+* -  Custoom EndPoints para Data Rest -> findBy
+* -  Documentacao GitHub (api resres)
+* -  Reuniao Equipa (apanhado Geral)
+* -  Angular
+* -  Formularios Insercao Testes de Insercao (Validation, Exception, outros...)
+* -  Documentacao

@@ -1,0 +1,29 @@
+{
+  "nome": "Funana",
+  "lotacaoMaxima": 30,
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Pedra Lume",
+  "lotacaoMaxima": 30,
+  "ativo": 0,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+
+{
+  "nome": "Tradicon",
+  "lotacaoMaxima": 30,
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

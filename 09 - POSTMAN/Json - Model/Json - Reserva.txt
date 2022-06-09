@@ -1,0 +1,21 @@
+{
+  "numeroAdulto": 2,
+  "numeroCrianca": 1,
+  "dataReserva": "2012-04-23T18:25:43.511Z",
+  "observacoes": "bla bl bla bla 1",
+  "comentarios": "bli bli bli bli lbli8",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}",
+  "estado": "/estados/1",
+  "cliente": "/clientes/1",
+  "utilizador": "/utilizadores/1",
+  "pagamento": "/pagamentos/1",
+  "restauranteSeating": "/restauranteSeating/1"
+ }
+
+/************************************************************/
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;
+/************************************************************/

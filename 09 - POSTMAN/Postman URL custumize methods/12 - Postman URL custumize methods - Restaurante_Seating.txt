@@ -1,0 +1,11 @@
+01- http://localhost:8080/restauranteSeating/search/findById?id=2
+02- http://localhost:8080/restauranteSeating/search/findByAtivo?ativo=false
+03- http://localhost:8080/restauranteSeating/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+04- http://localhost:8080/restauranteSeating/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T00:00:00
+05- http://localhost:8080/restauranteSeating/search/findByLotacao?lotacao=15
+06- http://localhost:8080/restauranteSeating/search/findByData?data=2022-06-08
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+07- http://localhost:8080/restauranteSeating/search/findByMenuId?id=3 - (...)
+08- http://localhost:8080/restauranteSeating/search/findByReservasId?id=2(...)
+09- http://localhost:8080/restauranteSeating/search/findByRestauranteId?id=1(...)
+10- http://localhost:8080/restauranteSeating/search/findBySeatingId?id=1(...)

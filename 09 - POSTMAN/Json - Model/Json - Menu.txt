@@ -1,0 +1,28 @@
+{
+  "nome": "Menu 1",
+  "descricao": "Menu Vegano...... 1",
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Menu 2",
+  "descricao": "carne assada ...... 2",
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "nome": "Menu 3",
+  "descricao": "lagostada...... 3",
+  "ativo": 0,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

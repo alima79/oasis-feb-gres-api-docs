@@ -1,0 +1,31 @@
+{
+  "horaInicio": "18:25:43",
+  "horaFim": "22:25:43",
+  "completo": 1,
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "horaInicio": "20:25:43",
+  "horaFim": "22:25:43",
+  "completo": 0,
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "horaInicio": "22:25:43",
+  "horaFim": "23:30:43",
+  "completo": 0,
+  "ativo": 1,
+   "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

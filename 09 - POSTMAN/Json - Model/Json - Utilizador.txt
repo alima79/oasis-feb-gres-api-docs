@@ -1,0 +1,22 @@
+{
+  "userName": "mikey",
+  "password": "moue1234",
+  "email": "mimou@oasisatlantico.com",
+  "ativo": 1,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+{
+  "userName": "mini",
+  "password": "moue3216",
+  "email": "minimou@oasisatlantico.com",
+  "ativo": 0,
+  "dataCriacao": "{{$isoTimestamp}}",
+  "dataUltimaActualizacao": "{{$isoTimestamp}}"
+ }
+
+
+@JsonFormat(pattern="MM/dd/yyyy")
+ @Column(name = "creation_date")
+ private Date creationDate;

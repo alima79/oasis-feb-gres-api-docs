@@ -1,0 +1,5 @@
+01- http://localhost:8080/grupos/search/findById?id=2
+02- http://localhost:8080/grupos/search/findByInstituicao?instituicao=FIFA
+********************************************************************
+03- http://localhost:8080/grupos/search/findByClienteId?id=7
+(...)

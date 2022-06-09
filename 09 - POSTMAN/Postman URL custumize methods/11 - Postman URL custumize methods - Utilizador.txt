@@ -1,0 +1,10 @@
+01- http://localhost:8080/utilizadores/search/findById?id=1
+02- http://localhost:8080/utilizadores/search/findByAtivo?ativo=true
+03- http://localhost:8080/utilizadores/search/findByDataCriacao?dataCriacao=2022-06-07T21:24:28
+04- http://localhost:8080/utilizadores/search/findByDataUltimaActualizacao?dataUltimaActualizacao=2022-06-07T21:24:28
+05- http://localhost:8080/utilizadores/search/findByUserName?userName=mini
+06- http://localhost:8080/utilizadores/search/findByPassword?password=moue1234
+07- http://localhost:8080/utilizadores/search/findByEmail?email=minimou@oasisatlantico.com
+************************************************************************************************************
+08- http://localhost:8080/utilizadores/search/findByReservasId?id=2
+(...)

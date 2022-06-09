@@ -1,0 +1,4 @@
+http://localhost:8080/particulares/search/findById?id=1
+*********************************************************
+http://localhost:8080/particulares/search/findByClienteId?id=4
+(...)
